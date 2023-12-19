@@ -1,0 +1,30 @@
+/* App.css */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.counter-display {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.increment-btn,
+.decrement-btn {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.decrement-btn:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
